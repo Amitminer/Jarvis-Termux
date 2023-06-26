@@ -1,0 +1,6 @@
+{
+    "require": {
+        "haozi-team/chatgpt-php": "^2.0",
+        "symfony/yaml": "^6.3"
+    }
+}
