@@ -32,12 +32,6 @@ class Jarvis {
             if ($question === null) {
                 break;
             }
-
-            // Greet the user if they say "hello"
-            if (strtolower($question) == "hello") {
-                $msg = LibVoice::say("hello");
-            }
-
             // Stop the program if the user says "stop"
             if (strtolower($question) == "stop") {
                 break;
@@ -45,7 +39,7 @@ class Jarvis {
 
             // Print the user's question
             print("You: \n {$question}");
-            print("...");
+            print("\nJarvis: ...");
 
             // Get the answer from ChatGPT
             self::getAnswer($question);
@@ -89,7 +83,7 @@ class Jarvis {
             $answer = $item['answer'];
 
             // Print and speak the answer
-            print("Jarvis: {$answer}");
+            print("\nJarvis: {$answer}");
             LibVoice::say($answer);
         }
     }
