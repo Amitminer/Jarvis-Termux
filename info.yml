@@ -1,0 +1,11 @@
+# info.yml
+
+name: Jarvis-Termux
+author: AmitxD
+path: AmitxD/Jarvis-Termux
+version: 2.0
+license: MIT
+description: Jarvis-Termux is a PHP project that allows you to interact with an AI chat and voice assistant..
+
+contact:
+  website: https://github.com/Amitminer/Jarvis-Termux

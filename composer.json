@@ -1,6 +1,19 @@
 {
+    "name": "amitxd/jarvis-ai",
+    "description": "Jarvis-Termux is a PHP project that allows you to interact with an AI chat and voice assistant.",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "analyze": "vendor/bin/phpstan analyze src"
+    },
     "require": {
         "haozi-team/chatgpt-php": "^2.0",
-        "symfony/yaml": "^6.3"
+        "amitxd/libconfig": "^1.0",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmitxD\\Jarvis\\": "src/"
+        }
     }
 }
