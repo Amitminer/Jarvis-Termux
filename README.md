@@ -12,7 +12,7 @@ Jarvis-Termux is a PHP project that allows you to interact with an AI chat and v
 
 ## Libraries Used
 
-- [ChatGPT](https://github.com/HaoZiTeam/ChatGPT-PHP) by HaoZiTeam: A PHP library for interacting with OpenAI's ChatGPT model.
+- [ChatGPT](https://github.com/haozi-team/ChatGPT-PHP) by HaoZiTeam: A PHP library for interacting with OpenAI's ChatGPT model.
 - [LibConfig](https://github.com/Amitminer/LibConfig-PHP) by AmitxD: A configuration management library for PHP.
 - [LibVoice (Termux)](https://github.com/Amitminer/LibVoice) by AmitxD: A PHP library for voice interaction using Termux.
 
@@ -74,5 +74,3 @@ Contributions to Jarvis-Termux are welcome! If you have any ideas, suggestions, 
 Jarvis-Termux is released under the [MIT License](https://github.com/Amitminer/Jarvis-Termux/blob/main/LICENSE).
 
 ---
-
-**Note:** This project is for educational purposes only. Use it responsibly and be aware of OpenAI's usage policies and any applicable terms and conditions.
